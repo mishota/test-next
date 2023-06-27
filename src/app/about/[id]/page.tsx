@@ -18,11 +18,11 @@ const getData = async (id: string) => {
     return ids;
 }
 
-export async function generateMetaData({ params: { id } }: PropsType): Promise<Metadata> {
-    return {
-        title: `meta ${id}`,
-    }
-}
+// export async function generateMetaData({ params: { id } }: PropsType): Promise<Metadata> {
+//     return {
+//         title: `meta ${id}`,
+//     }
+// }
 const AboutId = async ({ params: { id } }: PropsType) => {
     const ids = await getData(id);
 

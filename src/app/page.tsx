@@ -11,30 +11,30 @@ const products = [
   { id: 2, title: "портфельное инвестирование", text: "Готовые портфельные решения для различныхных стратегийи" },
   { id: 3, title: "ВЕНЧУРНЫЕ ИНВЕСТИЦИИ", text: "Возможность венчурного инвестирования в стартапыи" },
 ]
-export const scaleAnimation = {
-  hidden: {
-    scale: 0.2,
-  },
-  visible: {
-    scale: 1,
-    transition: {
-      delay: 0.1,
-      duration: 2,
-    },
-  },
-};
-export const fadeAnimation = {
-  hidden: {
-    opacity: 0,
-  },
-  visible: {
-    opacity: 1,
-    transition: {
-      delay: 0.1,
-      duration: 2,
-    },
-  },
-};
+// export const scaleAnimation = {
+//   hidden: {
+//     scale: 0.2,
+//   },
+//   visible: {
+//     scale: 1,
+//     transition: {
+//       delay: 0.1,
+//       duration: 2,
+//     },
+//   },
+// };
+// export const fadeAnimation = {
+//   hidden: {
+//     opacity: 0,
+//   },
+//   visible: {
+//     opacity: 1,
+//     transition: {
+//       delay: 0.1,
+//       duration: 2,
+//     },
+//   },
+// };
 
 export default function Home() {
   return (
